@@ -1,5 +1,5 @@
 
-```markdown
+
 # ✍️ Inklet
 
 **Inklet** is a minimal, modular text and code editor built with **Python + PyQt6**. Designed to be light on system resources, Inklet is perfect for low-end machines and easy to integrate into any PyQt6-based project.
@@ -54,4 +54,4 @@ editor = InkEditor()
 
 For a full-featured demo and integration examples, check out `examples/` after setup.  
 Need a branded logo or theme switcher? Inklet is ready to customize 🖋️🌒
-```
+
