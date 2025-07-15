@@ -1,5 +1,4 @@
 
-
 # ✍️ Inklet
 
 **Inklet** is a minimal, modular text and code editor built with **Python + PyQt6**. Designed to be light on system resources, Inklet is perfect for low-end machines and easy to integrate into any PyQt6-based project.
@@ -8,11 +7,15 @@
 
 ## 🧩 Features
 
-- ✅ **Modular Design** — Drop Inklet into any PyQt6 project with ease
-- 🚀 **Lightweight** — Fast and responsive even on low-end hardware
-- 🎨 **Theme Support** — Easily customize the look using external `.qss` stylesheets
-- 🖋️ **Plain Text & Code Editing** — Clean interface for scripts, configs, or embedded tools
-- 🔌 **Embed-Ready** — Just import and place wherever you need editing capabilities
+- ✅ **Modular Design** — Drop Inklet into any PyQt6 project with ease  
+- 🚀 **Lightweight** — Fast and responsive even on low-end hardware  
+- 🎨 **Theme Support** — Easily customize the look using external `.qss` stylesheets  
+- 🔍 **Floating Find & Replace** — Summonable via `Ctrl + F`, unobtrusive and focused  
+- 🧮 **Line Number Support** — Elegant and scroll-synced alongside the editor  
+- 🖋️ **Python Syntax Highlighting** — Highlight keywords, strings, comments, and numbers  
+- 📄 **Current Line Highlighting** — Optional focus feature for active line  
+- 💾 **File Load/Save with Shortcuts** — Includes fallback Save As  
+- 🎨 **QSS-Powered Syntax Styling** — Highlight colors defined in `syntax.qss`
 
 ---
 
@@ -27,6 +30,7 @@ Inklet is ideal for:
 ---
 
 ## 🚀 Quick Start
+
 ```python
 from inklet import InkEditor
 editor = InkEditor()
@@ -37,34 +41,49 @@ editor = InkEditor()
 ## ⌨️ Keyboard Shortcuts
 
 ### ⚙️ Main Shortcuts
-> _These shortcuts are only active when Inklet is run directly (i.e. `__name__ == "__main__"`). They won't trigger when you import the editor or file manager into another application._
+> _Active only when run directly — not imported into other applications._
 
-| ⌨️ Shortcut        | 🚀 Action            |
-|-------------------|---------------------|
-| `Ctrl + Q`        | Exit the application |
+| ⌨️ Shortcut        | 🚀 Action               |
+|-------------------|------------------------|
+| `Ctrl + Q`        | Exit the application    |
 
 ---
 
 ### ✍️ Editor Shortcuts
 
-| ⌨️ Shortcut        | 📄 Action             |
-|-------------------|----------------------|
-| `Ctrl + S`        | Save current file     |
-| `Ctrl + Shift + S`| Save As new file      |
+| ⌨️ Shortcut        | 📄 Action               |
+|-------------------|------------------------|
+| `Ctrl + S`        | Save current file       |
+| `Ctrl + Shift + S`| Save as new file        |
+| `Ctrl + F`        | Open Find & Replace dialog |
 
 ---
 
 ### 📁 File Manager Shortcuts
 
-| ⌨️ Shortcut        | 📂 Action               |
-|-------------------|------------------------|
-| `Ctrl + O`        | Open file dialog        |
-| `Ctrl + Shift + O`| Open folder dialog      |
+| ⌨️ Shortcut        | 📂 Action                     |
+|-------------------|------------------------------|
+| `Ctrl + O`        | Open file dialog              |
+| `Ctrl + Shift + O`| Open folder dialog            |
 | *(Double-click)*  | Load selected file into editor |
-
 
 ---
 
-For a full-featured demo and integration examples, check out `examples/` after setup.  
-Need a branded logo or theme switcher? Inklet is ready to customize 🖋️🌒
+## 🎨 Theme Configuration
+
+Inklet uses `.qss` stylesheets for UI theming and syntax color definition:
+
+```css
+/* syntax.qss */
+syntax-keyword: #ff79c6;
+syntax-string:  #f1fa8c;
+syntax-comment: #6272a4;
+syntax-number:  #bd93f9;
+```
+
+Simply update the values to recolor highlights dynamically.
+
+---
+
+Explore `examples/` for full demos, or dive into extending Inklet with split views, Markdown preview, and more. Whether embedded in Wronggine or customized for your own app, Inklet is the aesthetic and functional core you’ve always wanted 💡🖋️
 
