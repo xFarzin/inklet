@@ -36,19 +36,32 @@ editor = InkEditor()
 
 ## ⌨️ Keyboard Shortcuts
 
+### ⚙️ Main Shortcuts
+> _These shortcuts are only active when Inklet is run directly (i.e. `__name__ == "__main__"`). They won't trigger when you import the editor or file manager into another application._
+
+| ⌨️ Shortcut        | 🚀 Action            |
+|-------------------|---------------------|
+| `Ctrl + Q`        | Exit the application |
+
+---
+
 ### ✍️ Editor Shortcuts
-| Shortcut         | Action             |
-|------------------|--------------------|
-| `Ctrl + S`       | Save current file  |
-| `Ctrl + Shift + S` | Save As new file |
-| `Ctrl + Q`       | Exit application   |
+
+| ⌨️ Shortcut        | 📄 Action             |
+|-------------------|----------------------|
+| `Ctrl + S`        | Save current file     |
+| `Ctrl + Shift + S`| Save As new file      |
+
+---
 
 ### 📁 File Manager Shortcuts
-| Shortcut         | Action               |
-|------------------|----------------------|
-| `Ctrl + O`       | Open file dialog     |
-| `Ctrl + Shift + O` | Open folder dialog  |
-| *(Double-click)* | Load selected file into editor |
+
+| ⌨️ Shortcut        | 📂 Action               |
+|-------------------|------------------------|
+| `Ctrl + O`        | Open file dialog        |
+| `Ctrl + Shift + O`| Open folder dialog      |
+| *(Double-click)*  | Load selected file into editor |
+
 
 ---
 
