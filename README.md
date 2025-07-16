@@ -56,7 +56,7 @@ editor = InkEditor()
 |-------------------|------------------------|
 | `Ctrl + Q`        | Exit the application    |
 | `F11`             | Toggle Zen Mode         |
-
+| `Ctrl + ?`             | Show Help         |
 ---
 
 ### ✍️ Editor Shortcuts
