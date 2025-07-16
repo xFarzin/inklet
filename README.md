@@ -1,4 +1,5 @@
 
+
 # ✍️ Inklet
 
 **Inklet** is a minimal, modular text and code editor built with **Python + PyQt6**. Designed to be light on system resources, Inklet is perfect for low-end machines and easy to integrate into any PyQt6-based project.
@@ -15,7 +16,10 @@
 - 🖋️ **Python Syntax Highlighting** — Highlight keywords, strings, comments, and numbers  
 - 📄 **Current Line Highlighting** — Optional focus feature for active line  
 - 💾 **File Load/Save with Shortcuts** — Includes fallback Save As  
-- 🎨 **QSS-Powered Syntax Styling** — Highlight colors defined in `syntax.qss`
+- 🎨 **QSS-Powered Syntax Styling** — Highlight colors defined in `syntax.qss`  
+- 🧘 **Zen Mode (F11)** — Toggle fullscreen distraction-free view  
+- 📂 **Drag & Drop File Loading** — Drop files directly into the editor to open  
+- 🔄 **Session Restore** — Automatically reloads last opened file + scroll position  
 
 ---
 
@@ -46,6 +50,7 @@ editor = InkEditor()
 | ⌨️ Shortcut        | 🚀 Action               |
 |-------------------|------------------------|
 | `Ctrl + Q`        | Exit the application    |
+| `F11`             | Toggle Zen Mode         |
 
 ---
 
@@ -66,6 +71,7 @@ editor = InkEditor()
 | `Ctrl + O`        | Open file dialog              |
 | `Ctrl + Shift + O`| Open folder dialog            |
 | *(Double-click)*  | Load selected file into editor |
+| *(Drag file)*     | Drop file directly into editor |
 
 ---
 
@@ -86,4 +92,3 @@ Simply update the values to recolor highlights dynamically.
 ---
 
 Explore `examples/` for full demos, or dive into extending Inklet with split views, Markdown preview, and more. Whether embedded in Wronggine or customized for your own app, Inklet is the aesthetic and functional core you’ve always wanted 💡🖋️
-
