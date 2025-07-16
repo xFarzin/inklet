@@ -1,0 +1,5 @@
+/* Syntax highlight definitions */
+syntax-keyword: #ff79c6;
+syntax-string: #f1fa8c;
+syntax-comment: #6272a4;
+syntax-number: #bd93f9;

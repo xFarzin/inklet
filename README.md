@@ -6,6 +6,7 @@
 
 ---
 
+
 ## 🧩 Features
 
 - ✅ **Modular Design** — Drop Inklet into any PyQt6 project with ease  
@@ -20,6 +21,10 @@
 - 🧘 **Zen Mode (F11)** — Toggle fullscreen distraction-free view  
 - 📂 **Drag & Drop File Loading** — Drop files directly into the editor to open  
 - 🔄 **Session Restore** — Automatically reloads last opened file + scroll position  
+- 🔌 **Plugin System** — Load external Python modules to add features dynamically  
+- 🔮 **Command Palette (Ctrl+Shift+P)** — Search and trigger commands with fuzzy matching  
+- ❔ **Shortcut Help Overlay (Ctrl+?)** — View all available keyboard shortcuts in one place  
+
 
 ---
 
